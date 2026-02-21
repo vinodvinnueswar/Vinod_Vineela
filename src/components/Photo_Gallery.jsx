@@ -46,7 +46,7 @@ const Photo_Gallery = () => {
 
   return (
     <div className="Photo_Gallery">
-        <h2>Our Gallery</h2>
+        <h2 data-aos="fade-up">Our Gallery</h2>
         <div className="Pictures">
             <LightGallery
                 speed={500}
@@ -56,7 +56,7 @@ const Photo_Gallery = () => {
                     data.map((item,index) => {
                         return(
                             <a className='Pics' href={item.imgsrc} key={index}>
-                                <img src={item.imgsrc} alt="" />
+                                <img src={item.imgsrc} alt="" data-aos="fade-up"/>
                             </a>
                         )
                     })
