@@ -13,7 +13,7 @@ import {
 import Footer from './Footer';
 
 const Social_Share = () => {
-  const shareUrl = "https://ayesha-imran.vercel.app/";
+  const shareUrl = "https://vinod-vineela.vercel.app/";
   const title = "You're invited to our wedding! 💍";
 
   return (
